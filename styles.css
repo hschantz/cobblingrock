@@ -1,0 +1,178 @@
+body {
+    background: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* HEADER */
+
+header {
+    background-color: white;
+    height: 60px;
+    padding: 10px;
+    text-align: left;
+}
+
+header .logo a {
+    background-image: url(logo.webp);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 50px;
+    position: relative;
+    top: -15px;
+    width: 50px;
+    text-indent: -999999999px;
+}
+
+section{
+    background: white;
+    color: gray;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+}
+
+.disclaimer {
+    height: 25px;
+}
+
+.mainbody{
+    background: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+}
+
+.pageheader{
+    background: grey;
+    color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.mainscreen{
+    background-color: black;
+    background-image: url(nyc.jpg);
+    background-size: 1000px;
+    background-position: center;
+    height: 500px;
+    color: gray;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.mainscreen img {
+    width: 300px;
+    height: 300px;
+    margin: 1% 42%;
+}
+
+h2, h3{
+    color: black;
+    width: 300px;
+    margin: 1% 50%;
+    display: flex;
+    position: relative;
+    text-indent: -100px;
+}
+
+h4 {
+    color: black;
+    width: 300px;
+    text-wrap: none;
+    margin-left: 50%;
+    display: flex;
+}
+
+h5 {
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+p {
+    color: black;
+    margin-left: 50%;
+    font-size: 10px;
+}
+section div {
+    background: rgb(126, 119, 95);
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.finmodels a{
+    color: gold;
+}
+
+a {
+    color:black;
+    text-decoration: none;
+}
+
+.headertext a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    margin: 10px; 
+    margin-top: 20px;
+}
+
+.finmodels li:hover{
+    text-decoration: underline;
+}
+
+.finmodels{
+    margin: 20px;
+    color: gold;
+}
+
+.consultation p{
+    color: blue;
+    text-align: center;
+    margin-left: 0px;
+    font-size: 12px;
+    margin-top: 30%;
+
+}
+
+.consultation p:hover{
+    text-decoration: underline;
+}
+
+.outsource{
+    color: gold;
+}
+
+footer{
+    height: 50px;
+    background: black;
+    color: #434343;
+    padding: 20px;
+    position: relative;
+    width: 500px;
+    bottom: 0;
+    z-index: 400;
+}
